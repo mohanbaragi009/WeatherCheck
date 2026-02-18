@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_KEY = 'e6941986eec5f70e1238acd948ee73e1';
-const BASE_URL = 'http://api.weatherstack.com';
+const BASE_URL = 'https://api.weatherstack.com';
 
 const api = axios.create({
     baseURL: BASE_URL,
